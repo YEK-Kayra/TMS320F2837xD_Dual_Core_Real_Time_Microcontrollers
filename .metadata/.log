@@ -1454,3 +1454,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstud
 
 !ENTRY org.eclipse.equinox.p2.repository 2 0 2024-12-13 10:32:29.025
 !MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2win32/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-13 12:06:22.952
+!MESSAGE Indexed 'LABstarter' (14 sources, 156 headers) in 3,34 sec: 22.548 declarations; 38.923 references; 0 unresolved inclusions; 311 syntax errors; 257 unresolved names (%0,42)

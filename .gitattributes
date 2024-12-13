@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# C dosyalarının doğru algılanmasını sağla
+*.c linguist-language=C
+*.h linguist-language=C
+
+# Örneğin, bu kuralla PureBasic algısını devre dışı bırakabilirsiniz
+*.pb linguist-detectable=false

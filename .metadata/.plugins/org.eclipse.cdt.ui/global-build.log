@@ -1538,3 +1538,317 @@ Finished building target: "TUBITAK_ADC_ReadingVoltage_From_CurrentSensor.out"
  
 
 **** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project LABstarter ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../F2837xD_Gpio.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2837xD_Gpio.d_raw"  "../F2837xD_Gpio.c"
+subdir_rules.mk:9: recipe for target 'F2837xD_Gpio.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F2837xD_Gpio.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F2837xD_Gpio.obj] Error 2
+Building file: "../F2837xD_PieCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2837xD_PieCtrl.d_raw"  "../F2837xD_PieCtrl.c"
+subdir_rules.mk:9: recipe for target 'F2837xD_PieCtrl.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F2837xD_PieCtrl.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F2837xD_PieCtrl.obj] Error 2
+Building file: "../F2837xD_PieVect.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2837xD_PieVect.d_raw"  "../F2837xD_PieVect.c"
+subdir_rules.mk:9: recipe for target 'F2837xD_PieVect.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F2837xD_PieVect.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F2837xD_PieVect.obj] Error 2
+Building file: "../F2837xD_Spi.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2837xD_Spi.d_raw"  "../F2837xD_Spi.c"
+subdir_rules.mk:9: recipe for target 'F2837xD_Spi.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F2837xD_Spi.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F2837xD_Spi.obj] Error 2
+Building file: "../F2837xD_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d_raw"  "../F2837xD_SysCtrl.c"
+subdir_rules.mk:9: recipe for target 'F2837xD_SysCtrl.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F2837xD_SysCtrl.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F2837xD_SysCtrl.obj] Error 2
+Building file: "../F2837xD_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d_raw"  "../F2837xD_usDelay.asm"
+subdir_rules.mk:16: recipe for target 'F2837xD_usDelay.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F2837xD_usDelay.asm
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F2837xD_usDelay.obj] Error 2
+Building file: "../F2837xD_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefs.d_raw"  "../F2837xD_GlobalVariableDefs.c"
+subdir_rules.mk:9: recipe for target 'F2837xD_GlobalVariableDefs.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F2837xD_GlobalVariableDefs.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F2837xD_GlobalVariableDefs.obj] Error 2
+Building file: "../LEDPatterns.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="LEDPatterns.d_raw"  "../LEDPatterns.c"
+subdir_rules.mk:9: recipe for target 'LEDPatterns.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../LEDPatterns.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [LEDPatterns.obj] Error 2
+Building file: "../device/device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="device/device.d_raw" --obj_directory="device"  "../device/device.c"
+device/subdir_rules.mk:9: recipe for target 'device/device.obj' failed
+gmake: *** No rule to make target 'C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/lib/c28x_fpu_dsp_library.lib', needed by 'all'.
+gmake: *** No rule to make target 'C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib/ccs/Debug/driverlib.lib', needed by 'all'.
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../device/device.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [device/device.obj] Error 2
+Building file: "../LABstarter_main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="LABstarter_main.d_raw"  "../LABstarter_main.c"
+subdir_rules.mk:9: recipe for target 'LABstarter_main.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../LABstarter_main.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [LABstarter_main.obj] Error 2
+Building file: "../F2837xD_Adc.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2837xD_Adc.d_raw"  "../F2837xD_Adc.c"
+subdir_rules.mk:9: recipe for target 'F2837xD_Adc.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F2837xD_Adc.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F2837xD_Adc.obj] Error 2
+Building file: "../F28379dSerial.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F28379dSerial.d_raw"  "../F28379dSerial.c"
+subdir_rules.mk:9: recipe for target 'F28379dSerial.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F28379dSerial.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F28379dSerial.obj] Error 2
+Building file: "../F2837xD_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d_raw"  "../F2837xD_CodeStartBranch.asm"
+subdir_rules.mk:16: recipe for target 'F2837xD_CodeStartBranch.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F2837xD_CodeStartBranch.asm
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F2837xD_CodeStartBranch.obj] Error 2
+Building file: "../F2837xD_CpuTimers.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2837xD_CpuTimers.d_raw"  "../F2837xD_CpuTimers.c"
+subdir_rules.mk:9: recipe for target 'F2837xD_CpuTimers.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F2837xD_CpuTimers.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F2837xD_CpuTimers.obj] Error 2
+Building file: "../F2837xD_DefaultISR.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2837xD_DefaultISR.d_raw"  "../F2837xD_DefaultISR.c"
+subdir_rules.mk:9: recipe for target 'F2837xD_DefaultISR.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F2837xD_DefaultISR.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F2837xD_DefaultISR.obj] Error 2
+Building file: "../F2837xD_EPwm.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="C:/Users/yunus/workspace_v12_new/LABstarter" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/common/include" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/LABstarter/device" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/driverlib/f2837xd/driverlib" --include_path="C:/Users/yunus/OneDrive/Masaüstü/UsingF28379D_ForMechatronics-main/C2000Ware_4_01_00_00/libraries/dsp/FPU/c28/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2837xD_EPwm.d_raw"  "../F2837xD_EPwm.c"
+subdir_rules.mk:9: recipe for target 'F2837xD_EPwm.obj' failed
+ 
+INTERNAL ERROR: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000 had an internal inconsistency and aborted
+                  while processing file ../F2837xD_EPwm.c
+ 
+This is caused by a defect in the TI C/C++ Compiler.
+TI Customer Support may be able to suggest a workaround to avoid this.
+ 
+Upgrading to the newest version of the compiler may fix this problem.
+ 
+Contact TI on the E2E support forums at http://e2e.ti.com
+ 
+We need to see this ENTIRE error message and a complete, reproducible
+test case including ALL of the command-line options.
+ 
+gmake: *** [F2837xD_EPwm.obj] Error 2
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
