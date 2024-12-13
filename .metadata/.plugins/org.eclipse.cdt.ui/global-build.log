@@ -1512,3 +1512,29 @@ Finished building target: "TUBITAK_ADC_ReadingVoltage_From_CurrentSensor.out"
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project TUBITAK_ADC_ReadingVoltage_From_CurrentSensor ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TUBITAK_ADC_ReadingVoltage_From_CurrentSensor.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TUBITAK_ADC_ReadingVoltage_From_CurrentSensor ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/Users/yunus/workspace_v12_new/TUBITAK_ADC_ReadingVoltage_From_CurrentSensor" --include_path="C:/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib" --include_path="C:/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/include" --include_path="C:/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include" --include_path="C:/Users/yunus/workspace_v12_new/TUBITAK_ADC_ReadingVoltage_From_CurrentSensor/include" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all --define=CPU1 --define=_LAUNCHXL_F28379D --define=_DUAL_HEADERS --define=_FLASH --define=DEBUG -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+Finished building: "../src/main.c"
+ 
+Building target: "TUBITAK_ADC_ReadingVoltage_From_CurrentSensor.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU1 --define=_LAUNCHXL_F28379D --define=_DUAL_HEADERS --define=_FLASH --define=DEBUG -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"TUBITAK_ADC_ReadingVoltage_From_CurrentSensor.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="TUBITAK_ADC_ReadingVoltage_From_CurrentSensor_linkInfo.xml" --rom_model -o "TUBITAK_ADC_ReadingVoltage_From_CurrentSensor.out" "./common/source/F2837xD_Adc.obj" "./common/source/F2837xD_CodeStartBranch.obj" "./common/source/F2837xD_CpuTimers.obj" "./common/source/F2837xD_DBGIER.obj" "./common/source/F2837xD_DefaultISR.obj" "./common/source/F2837xD_Dma.obj" "./common/source/F2837xD_ECap.obj" "./common/source/F2837xD_EPwm.obj" "./common/source/F2837xD_EQep.obj" "./common/source/F2837xD_Emif.obj" "./common/source/F2837xD_Gpio.obj" "./common/source/F2837xD_I2C.obj" "./common/source/F2837xD_Ipc.obj" "./common/source/F2837xD_Ipc_Driver.obj" "./common/source/F2837xD_Ipc_Driver_Lite.obj" "./common/source/F2837xD_Ipc_Driver_Util.obj" "./common/source/F2837xD_Mcbsp.obj" "./common/source/F2837xD_PieCtrl.obj" "./common/source/F2837xD_PieVect.obj" "./common/source/F2837xD_Sci.obj" "./common/source/F2837xD_Spi.obj" "./common/source/F2837xD_SysCtrl.obj" "./common/source/F2837xD_TempSensorConv.obj" "./common/source/F2837xD_Upp.obj" "./common/source/F2837xD_can.obj" "./common/source/F2837xD_sci_io.obj" "./common/source/F2837xD_sdfm_drivers.obj" "./common/source/F2837xD_struct.obj" "./common/source/F2837xD_usDelay.obj" "./common/source/device.obj" "./headers/source/F2837xD_GlobalVariableDefs.obj" "./src/main.obj" "../2837x_FLASH_lnk_cpu1.cmd" "C:/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/ccs/Debug/driverlib.lib" "C:/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/cmd/F2837xD_Headers_nonBIOS_cpu1.cmd"  -llibc.a 
+<Linking>
+Finished building target: "TUBITAK_ADC_ReadingVoltage_From_CurrentSensor.out"
+ 
+
+**** Build Finished ****
