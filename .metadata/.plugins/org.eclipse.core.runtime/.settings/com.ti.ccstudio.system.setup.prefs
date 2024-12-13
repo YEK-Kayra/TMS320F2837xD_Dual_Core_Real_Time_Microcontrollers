@@ -1,0 +1,2 @@
+DEFAULT_CCS_TARGET_CONFIGURATION=C\:\\ti\\c2000\\C2000Ware_5_04_00_00\\device_support\\f2837xd\\examples\\cpu1\\adc_soc_epwm_tempsensor\\cpu01\\ccs\\targetConfigs\\TMS320F28377D.ccxml
+eclipse.preferences.version=1

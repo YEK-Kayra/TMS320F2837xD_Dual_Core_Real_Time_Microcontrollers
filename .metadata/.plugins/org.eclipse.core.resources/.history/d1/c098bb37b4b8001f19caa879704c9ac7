@@ -1,0 +1,47 @@
+
+#include "stdio.h"
+#include "stdlib.h"
+#include "string.h"
+
+#include "device.h"
+#include "driverlib.h"
+#include "F28x_Project.h"
+#include "F2837xD_device.h"
+#include "F2837xD_Examples.h"
+
+#define EX_ADC_RESULATION 12
+
+void configADC(Uint32 ADC_Base);
+void initADC_SOC(void);
+
+
+void main(void){
+
+    Device_init();
+    Device_initGPIO();
+
+
+
+}
+
+
+void configADC(Uint32 ADC_Base){
+
+    EALLOW;
+
+    //ADC_setPrescaler(base, clkPrescale);
+
+#if(EX_ADC_RESULATION == 12){
+
+        //ADC_setMode(base, resolution, signalMode);
+    }
+#elif(EX_ADC_RESULATION == 16){
+        //ADC_setMode(base, resolution, signalMode);
+}
+
+ADC_setInterruptPulseMode(base, pulseMode);
+ADC_enableConverter(base);
+DEVICE_DELAY_US(1000);
+
+    EDIS;
+}

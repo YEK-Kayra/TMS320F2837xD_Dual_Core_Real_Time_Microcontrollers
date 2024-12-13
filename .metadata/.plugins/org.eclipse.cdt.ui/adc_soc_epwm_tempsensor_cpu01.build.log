@@ -1,0 +1,13 @@
+
+**** Build of configuration CPU1_FLASH for project adc_soc_epwm_tempsensor_cpu01 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k all 
+ 
+Building target: "adc_soc_epwm_tempsensor_cpu01.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 -z -m"adc_soc_epwm_tempsensor_cpu01.map" --stack_size=0x100 --warn_sections -i"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -i"C:/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/common/cmd" -i"C:/ti/c2000/C2000Ware_5_04_00_00/device_support/f2837xd/headers/cmd" --reread_libs --display_error_number --xml_link_info="adc_soc_epwm_tempsensor_cpu01_linkInfo.xml" --rom_model -o "adc_soc_epwm_tempsensor_cpu01.out" "./F2837xD_Adc.obj" "./F2837xD_CodeStartBranch.obj" "./F2837xD_DefaultISR.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_Gpio.obj" "./F2837xD_Ipc.obj" "./F2837xD_PieCtrl.obj" "./F2837xD_PieVect.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_TempSensorConv.obj" "./F2837xD_usDelay.obj" "./adc_soc_epwm_tempsensor_cpu01.obj"  -lrts2800_fpu32.lib -l2837xD_FLASH_lnk_cpu1.cmd -lF2837xD_Headers_nonBIOS_cpu1.cmd -llibc.a 
+<Linking>
+Finished building target: "adc_soc_epwm_tempsensor_cpu01.out"
+ 
+
+**** Build Finished ****
