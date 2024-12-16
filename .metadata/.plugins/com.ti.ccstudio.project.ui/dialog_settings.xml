@@ -5,7 +5,7 @@
 	<section name="com.ti.ccstudio.project.ui.internal.properties.DynamicPropertiesPageManager">
 	</section>
 	<section name="com.ti.ccstudio.project.ui.internal.wizards.importexport.ProjectImportPage">
-		<item key="CCS.BROWSE_DIRS_FILTER" value="C:\ti\c2000\C2000Ware_5_04_00_00\device_support\f2837xd\examples\cpu1\adc_soc_epwm_tempsensor"/>
+		<item key="CCS.BROWSE_DIRS_FILTER" value="C:\Users\yunus\OneDrive\Masaüstü\UsingF28379D_ForMechatronics-main\C2000Ware_4_01_00_00\device_support\f2837xd\examples\cpu1\LABstarter"/>
 		<item key="CCS.COPY_INTO_WORKSPACE" value="false"/>
 		<item key="CCS.IMPORT_REFERENCED_PROJECTS" value="false"/>
 		<item key="CCS.IMPORT_FROM_ARCHIVE" value="false"/>

@@ -1852,3 +1852,43 @@ gmake: *** [F2837xD_EPwm.obj] Error 2
 gmake: Target 'all' not remade because of errors.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project TUBITAK_ADC_ReadingVoltage_From_CurrentSensor ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TUBITAK_ADC_ReadingVoltage_From_CurrentSensor.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TUBITAK_ADC_ReadingVoltage_From_CurrentSensor ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TUBITAK_ADC_ReadingVoltage_From_CurrentSensor.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TUBITAK_ADC_ReadingVoltage_From_CurrentSensor ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TUBITAK_ADC_ReadingVoltage_From_CurrentSensor.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TUBITAK_ADC_ReadingVoltage_From_CurrentSensor ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TUBITAK_ADC_ReadingVoltage_From_CurrentSensor.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TUBITAK_ADC_ReadingVoltage_From_CurrentSensor ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TUBITAK_ADC_ReadingVoltage_From_CurrentSensor.out' is up to date.
+
+**** Build Finished ****
